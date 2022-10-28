@@ -1,7 +1,8 @@
-import { View, Text, SafeAreaView, Image, TextInput } from 'react-native'
+import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { ChevronDownIcon, UserIcon, MagnifyingGlassIcon, AdjustmentsVerticalIcon } from "react-native-heroicons/outline";
+import Categories from '../components/Categories';
 
 
 
@@ -41,10 +42,17 @@ const HomeScreen = () => {
       <View className='flex-row mx-4 space-x-3 items-center mb-2'>
         <View className='flex-row flex-1 space-x-2 bg-gray-200 p-3'>
           <MagnifyingGlassIcon size={20} color='#00CCBB'/>
-          <TextInput placeholder='Restaurants and cuisines'/>
+          <TextInput placeholder='Restaurants and cuisines' keyboardType='default'/>
+          
         </View>
         <AdjustmentsVerticalIcon color='#00CCBB'/>
       </View>
+
+      {/*Body*/}
+      <ScrollView className='bg-gray-100' contentContainerStyle={{paddingBottom:100}}>
+        <Categories/>
+
+      </ScrollView>
     </SafeAreaView>
   )
 }
