@@ -1,5 +1,5 @@
 {
-  "name": "react-native-food-app-test",
+  "name": "food-app",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -30,6 +30,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/viraj458/react-native-food-app-test.git"
+    "url": "https://github.com/viraj458/food-app.git"
   }
 }
