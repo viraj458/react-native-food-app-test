@@ -23,7 +23,7 @@ const FeaturedRow = ({id,title,description}) => {
             {/* RestaurantCards */}
             <RestaurantCard 
                 id={1}
-                imgUrl='https://links.papareact.com/gn7'
+                imgUrl='https://reactjs.org/logo-og.png'
                 title='Sushi J'
                 rating={4.9}
                 genre='Japanese'
@@ -35,7 +35,7 @@ const FeaturedRow = ({id,title,description}) => {
             />
             <RestaurantCard 
                 id={1}
-                imgUrl='https://links.papareact.com/gn7'
+                imgUrl='https://reactjs.org/logo-og.png'
                 title='Sushi J'
                 rating={4.9}
                 genre='Japanese'

@@ -14,13 +14,13 @@ const Categories = () => {
     >
       {/* CategoryCard */}
 
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
-      <CategoryCard imgUrl='https://links.papareact.com/gn7' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
+      <CategoryCard imgUrl='https://reactjs.org/logo-og.png' title='test'/>
 
     </ScrollView>
   )
