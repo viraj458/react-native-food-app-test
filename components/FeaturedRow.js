@@ -23,7 +23,7 @@ const FeaturedRow = ({id,title,description}) => {
             {/* RestaurantCards */}
             <RestaurantCard 
                 id={1}
-                imgUrl='https://reactjs.org/logo-og.png'
+                imgUrl='https://images.pexels.com/photos/5807020/pexels-photo-5807020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                 title='Sushi J'
                 rating={4.9}
                 genre='Japanese'
@@ -35,7 +35,7 @@ const FeaturedRow = ({id,title,description}) => {
             />
             <RestaurantCard 
                 id={1}
-                imgUrl='https://reactjs.org/logo-og.png'
+                imgUrl='https://images.pexels.com/photos/5807020/pexels-photo-5807020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                 title='Sushi J'
                 rating={4.9}
                 genre='Japanese'
